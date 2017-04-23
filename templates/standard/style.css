@@ -50,8 +50,7 @@
 .cycloneslider-template-standard .cycloneslider-slide-vimeo{
 	background: #000;
 }
-.cycloneslider-template-standard .cycloneslider-slide-custom,
-.cycloneslider-template-standard .cycloneslider-slide-testimonial{
+.cycloneslider-template-standard .cycloneslider-slide-custom {
 	min-height: 100%;
 }
 .cycloneslider-template-standard div[data-cycle-dynamic-height="on"] .cycloneslider-slide-custom,
