@@ -79,9 +79,24 @@
 		
 		<div class="cs-slide-testimonial">
 			<div class="cs-testimonial-quote">
-				<div class="field last">
+				<div class="field">
 					<label for=""><?php _e('Quote', 'cycloneslider'); ?></label>
 					<textarea class="widefat cs-testimonial" name="cycloneslider_metas[<?php echo esc_attr($i); ?>][testimonial]"><?php echo esc_textarea($slide['testimonial']); ?></textarea>
+				</div>
+				<div class="field last">
+					<label for=""><?php _e('Image', 'cycloneslider'); ?></label>
+					<div class="cs-image-field">
+						<div class="cs-image-thumb">
+							<?php if($testimonial_img_url): ?>
+								<img src="<?php echo esc_url($testimonial_img_url); ?>" alt="<?php _e('Thumbnail', 'cycloneslider'); ?>">
+							<?php endif; ?>
+						</div>
+						<input class="cs-image-id" name="cycloneslider_metas[<?php echo esc_attr($i); ?>][testimonial_img]" type="hidden" value="<?php echo esc_attr($slide['testimonial_img']); ?>" />
+						<input class="button-secondary cs-media-gallery-show" type="button" value="<?php _e('Get Image', 'cycloneslider'); ?>" />
+						<?php if($testimonial_img_url): ?>
+							<a target="_blank" class="button-secondary" href="<?php echo esc_url($full_testimonial_img_url); ?>"><?php _e('View Image', 'cycloneslider'); ?></a>
+						<?php endif; ?>
+					</div>
 				</div>
 			</div><!-- // end .cs-testimonial-quote -->
 			<div class="cs-quote-properties">
