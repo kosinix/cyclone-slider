@@ -333,6 +333,8 @@ class CycloneSlider_Admin {
                     $vars['slide'] = $slide;
                     $vars['image_url'] = $image_url;
                     $vars['full_image_url'] = wp_get_attachment_url($slide['id']);
+                    $vars['testimonial_img_url'] = $this->get_slide_img_thumb($slide['testimonial_img']);
+                    $vars['full_testimonial_img_url'] = wp_get_attachment_url($slide['testimonial_img']);
                     $vars['box_title'] = $box_title;
                     $vars['debug'] = ($this->debug) ? cyclone_slider_debug($slide) : '';
                     $vars['effects'] = $this->data->get_slide_effects();
@@ -525,7 +527,9 @@ class CycloneSlider_Admin {
             $vars['effects'] = $this->data->get_slide_effects();
             $vars['debug'] = ($this->debug) ? cyclone_slider_debug($vars['slide']) : '';
             
-            $vars['full_image_url'] = '#';
+            $vars['full_image_url'] = '';
+            $vars['testimonial_img_url'] = '';
+            $vars['full_testimonial_img_url'] = '';
             $vars['slide']['type'] = 'image';
 
             $empty_slide = $this->view->get_render('slide-edit.php', $vars);

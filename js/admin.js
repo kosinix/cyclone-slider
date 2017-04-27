@@ -165,9 +165,9 @@ jQuery(document).ready(function($){
             /*** Add image to slide ***/
 
             var $button = $(this),
-                $slide = $button.closest('.cs-slide'), // Current slide
-                $thumb = $slide.find('.cs-image-thumb'), // Find the thumb
-                $hiddenField = $slide.find('.cs-image-id '); // Find the hidden field that will hold the attachment id
+                $imageField = $button.closest('.cs-image-field'), // Current image field
+                $thumb = $imageField.find('.cs-image-thumb'), // Find the thumb
+                $hiddenField = $imageField.find('.cs-image-id '); // Find the hidden field that will hold the attachment id
 
             $thumb.html('<img src="'+image_url+'" alt="Thumbnail" />').show();
             $hiddenField.val(attachment_id);

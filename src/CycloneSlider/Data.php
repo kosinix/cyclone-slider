@@ -216,6 +216,7 @@ class CycloneSlider_Data {
             $slides_to_save[$i]['testimonial_author'] = sanitize_text_field($slide['testimonial_author']);
             $slides_to_save[$i]['testimonial_link'] = esc_url_raw($slide['testimonial_link']);
             $slides_to_save[$i]['testimonial_link_target'] = sanitize_text_field($slide['testimonial_link_target']);
+            $slides_to_save[$i]['testimonial_img'] = (int) $slide['testimonial_img'];
         
             $i++;
         }
@@ -776,7 +777,8 @@ class CycloneSlider_Data {
             'testimonial' => '',
             'testimonial_author' => '',
             'testimonial_link' => '',
-            'testimonial_link_target' => '_self'
+            'testimonial_link_target' => '_self',
+            'testimonial_img' => ''
         );
     }
     

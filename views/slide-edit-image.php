@@ -1,13 +1,17 @@
 <div class="cs-slide-image">
 	<div class="cs-image-preview">
-		<div class="cs-image-thumb">
+		<div class="cs-image-field">
+			<div class="cs-image-thumb">
+				<?php if($image_url): ?>
+					<img src="<?php echo esc_url($image_url); ?>" alt="<?php _e('Thumbnail', 'cycloneslider'); ?>">
+				<?php endif; ?>
+			</div>
+			<input class="cs-image-id" name="cycloneslider_metas[<?php echo esc_attr($i); ?>][id]" type="hidden" value="<?php echo esc_attr($slide['id']); ?>" />
+			<input class="button-secondary cs-media-gallery-show" type="button" value="<?php _e('Get Image', 'cycloneslider'); ?>" />
 			<?php if($image_url): ?>
-				<img src="<?php echo esc_url($image_url); ?>" alt="<?php _e('Thumbnail', 'cycloneslider'); ?>">
+				<a target="_blank" class="button-secondary" href="<?php echo esc_url($full_image_url); ?>"><?php _e('View Image', 'cycloneslider'); ?></a>
 			<?php endif; ?>
 		</div>
-		<input class="cs-image-id" name="cycloneslider_metas[<?php echo esc_attr($i); ?>][id]" type="hidden" value="<?php echo esc_attr($slide['id']); ?>" />
-		<input class="button-secondary cs-media-gallery-show" type="button" value="<?php _e('Get Image', 'cycloneslider'); ?>" />
-		<a target="_blank" class="button-secondary" href="<?php echo esc_url($full_image_url); ?>"><?php _e('View Image', 'cycloneslider'); ?></a>
 	</div>
 	<div class="cs-image-edit">
 		<div class="expandable-box">

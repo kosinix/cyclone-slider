@@ -148,6 +148,9 @@ class CycloneSlider_AssetLoader {
 		/*** Client Script ***/
 		wp_enqueue_script( 'cyclone-client', $this->url.'js/client.js', array('jquery'), $this->version, $in_footer );
 
+		/*** Vimeo JS API ***/
+		wp_enqueue_script( 'cyclone-client', $this->url.'js/client.js', array('jquery'), $this->version, $in_footer );
+
 	}
 	
 	/**
