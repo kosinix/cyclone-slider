@@ -180,6 +180,11 @@ class CycloneSlider_Frontend {
                 $slides[ $i ]['vimeo_embed_code'] = '<iframe id="' . $slider_html_id . '-iframe-' . $i . '" width="' . $slider_settings['width'] . '" height="' . $slider_settings['height'] . '" src="https://player.vimeo.com/video/' . $vimeo_id . '?wmode=transparent" frameborder="0"  webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
                 $slides[ $i ]['vimeo_id']         = $vimeo_id;
                 $slides[ $i ]['thumbnail_small']  = $this->vimeo->get_vimeo_thumb( $vimeo_id );
+            } else if ( $slides[ $i ]['type'] == 'testimonial' ) {
+                list( $full_image_url, $orig_width, $orig_height ) = wp_get_attachment_image_src( $slide['testimonial_img'],
+                    'full' );
+
+                $slides[ $i ]['testimonial_img_url'] = $slides[ $i ]['full_testimonial_img_url'] = $full_image_url;
             }
         }
 
