@@ -48,7 +48,7 @@ Cyclone Slider Pro offers even more features:
 * Swipe. Swipe gesture support for touch devices.
 * 6 resize options: Fit, Fill, Crop, Exact, Exact Width, Exact Height
 * Ability to change the image quality: Low, Medium, High, Very High, Max
-* And two additional templates: Text, Galleria, Yelp and Twitter
+* And additional templates: Text, Galleria, Yelp and Twitter
 
 
 = Demos =
