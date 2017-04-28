@@ -2,7 +2,7 @@
 <div class="cs-slide" data-slide-type="<?php echo esc_attr( $slide['type'] ); ?>" data-slide-hidden="<?php echo esc_attr( $slide['hidden'] ); ?>">
 	<div class="cs-header">
 		<div class="cs-slide-type">
-			<input type="hidden" name="cycloneslider_metas[<?php echo esc_attr($i); ?>][type]" value="<?php esc_attr($slide['type']); ?>">
+			<input type="hidden" name="cycloneslider_metas[<?php echo esc_attr($i); ?>][type]" value="<?php echo esc_attr($slide['type']); ?>">
 			<div class="switcher">
 				<div class="display">
 					<i class="icon-picture"></i><span><?php _e('Image', 'cycloneslider'); ?>
