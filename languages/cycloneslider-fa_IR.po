@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyclone Slider 2 for persians\n"
+"Project-Id-Version: Cyclone Slider\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-08 19:38+0800\n"
-"PO-Revision-Date: 2017-04-08 19:38+0800\n"
-"Last-Translator: Kosinix <kosinix@codefleet.net>\n"
+"POT-Creation-Date: 2017-04-28 08:21+0800\n"
+"PO-Revision-Date: 2017-04-28 08:21+0800\n"
+"Last-Translator: \n"
 "Language-Team: Mixa <info@Mixa.ir>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -17,153 +17,131 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../cyclone-slider.php:93
-#, fuzzy
-msgid "Cyclone Slider Settings"
-msgstr "ابزارک اسلایدر میکسا"
-
-#: ../cyclone-slider.php:94
-#, fuzzy
-msgid "Settings"
-msgstr "تنظیمات اسلایدشو"
-
-#: ../cyclone-slider.php:104
-#, fuzzy
-msgid "Cyclone Slider Export"
-msgstr "اسلایدر"
-
-#: ../cyclone-slider.php:105
-#, fuzzy
-msgid "Export/Import"
-msgstr "وارد کردن"
-
-#: ../cyclone-slider.php:117
-#, fuzzy
-msgid "Cyclone Slider Nextgen Export"
-msgstr "اسلایدر"
-
-#: ../cyclone-slider.php:118 ../src/CycloneSlider/ExportPageNextgen.php:72
-#, fuzzy
-msgid "Export Nextgen"
-msgstr "وارد کردن"
-
-#: ../cyclone-slider.php:130
-#, fuzzy
-msgid "Cyclone Slider Import"
-msgstr "اسلایدر"
-
-#: ../cyclone-slider.php:131 ../src/CycloneSlider/ExportPage.php:69
-#: ../src/CycloneSlider/ExportPageNextgen.php:67
-#: ../src/CycloneSlider/ExporterNextgen.php:65
-#: ../src/CycloneSlider/ImportPage.php:74
-#: ../src/CycloneSlider/NextgenIntegration.php:65
-msgid "Import"
-msgstr "وارد کردن"
-
-#: ../src/CycloneSlider/Admin.php:142
+#: ../src/CycloneSlider/Admin.php:140
+#: ../src/legacy/inc/class-cyclone-slider.php:182
 msgid "Cyclone Slider"
 msgstr "اسلایدر"
 
-#: ../src/CycloneSlider/Admin.php:143
+#: ../src/CycloneSlider/Admin.php:141
+#: ../src/legacy/inc/class-cyclone-slider.php:183
 msgid "Slideshow"
 msgstr "اسلایدشو"
 
-#: ../src/CycloneSlider/Admin.php:144
+#: ../src/CycloneSlider/Admin.php:142
+#: ../src/legacy/inc/class-cyclone-slider.php:184
 msgid "Add Slideshow"
 msgstr "افزودن اسلایدشو"
 
-#: ../src/CycloneSlider/Admin.php:145
+#: ../src/CycloneSlider/Admin.php:143
+#: ../src/legacy/inc/class-cyclone-slider.php:185
 msgid "Add New Slideshow"
 msgstr "افزودن اسلایدشو جدید"
 
-#: ../src/CycloneSlider/Admin.php:146
+#: ../src/CycloneSlider/Admin.php:144
+#: ../src/legacy/inc/class-cyclone-slider.php:186
 msgid "Edit Slideshow"
 msgstr "ویرایش اسلایدشو"
 
-#: ../src/CycloneSlider/Admin.php:147
+#: ../src/CycloneSlider/Admin.php:145
+#: ../src/legacy/inc/class-cyclone-slider.php:187
 msgid "New Slideshow"
 msgstr "اسلایدشو جدید"
 
-#: ../src/CycloneSlider/Admin.php:148
+#: ../src/CycloneSlider/Admin.php:146
+#: ../src/legacy/inc/class-cyclone-slider.php:188
 msgid "View Slideshow"
 msgstr "نمایش اسلایدشو"
 
-#: ../src/CycloneSlider/Admin.php:149
+#: ../src/CycloneSlider/Admin.php:147
+#: ../src/legacy/inc/class-cyclone-slider.php:189
 msgid "Search Slideshows"
 msgstr "جستجو"
 
-#: ../src/CycloneSlider/Admin.php:150
+#: ../src/CycloneSlider/Admin.php:148
+#: ../src/legacy/inc/class-cyclone-slider.php:190
 msgid "No slideshows found"
 msgstr "چیزی یافت نشد"
 
-#: ../src/CycloneSlider/Admin.php:151
+#: ../src/CycloneSlider/Admin.php:149
+#: ../src/legacy/inc/class-cyclone-slider.php:191
 msgid "No slideshows found in Trash"
 msgstr "چیزی در سطل زباله یافت نشد"
 
-#: ../src/CycloneSlider/Admin.php:197 ../src/CycloneSlider/Admin.php:200
-#: ../src/CycloneSlider/Admin.php:201 ../src/CycloneSlider/Admin.php:204
-#: ../src/CycloneSlider/Admin.php:205 ../src/CycloneSlider/Admin.php:206
+#: ../src/CycloneSlider/Admin.php:195 ../src/CycloneSlider/Admin.php:198
+#: ../src/CycloneSlider/Admin.php:199 ../src/CycloneSlider/Admin.php:202
+#: ../src/CycloneSlider/Admin.php:203 ../src/CycloneSlider/Admin.php:204
+#: ../src/legacy/inc/class-cyclone-slider.php:210
+#: ../src/legacy/inc/class-cyclone-slider.php:211
+#: ../src/legacy/inc/class-cyclone-slider.php:214
+#: ../src/legacy/inc/class-cyclone-slider.php:215
+#: ../src/legacy/inc/class-cyclone-slider.php:216
 msgid "Slideshow updated."
 msgstr "اسلایدشو به روز شد"
 
-#: ../src/CycloneSlider/Admin.php:198
+#: ../src/CycloneSlider/Admin.php:196
+#: ../src/legacy/inc/class-cyclone-slider.php:208
 msgid "Custom field updated."
 msgstr "فیلدهای سفارشی بروز شدند"
 
-#: ../src/CycloneSlider/Admin.php:199
+#: ../src/CycloneSlider/Admin.php:197
+#: ../src/legacy/inc/class-cyclone-slider.php:209
 msgid "Custom field deleted."
 msgstr "فیلدهای سفارشی حذف شدند"
 
-#: ../src/CycloneSlider/Admin.php:202
+#: ../src/CycloneSlider/Admin.php:200
 msgid "Slideshow published."
 msgstr "اسلایدشو منتشر شد"
 
-#: ../src/CycloneSlider/Admin.php:203
+#: ../src/CycloneSlider/Admin.php:201
+#: ../src/legacy/inc/class-cyclone-slider.php:213
 msgid "Slideshow saved."
 msgstr "اسلایدشو ذخیره شد"
 
-#: ../src/CycloneSlider/Admin.php:242
+#: ../src/CycloneSlider/Admin.php:240
+#: ../src/legacy/inc/class-cyclone-slider.php:225
 msgid "Slides"
 msgstr "اسلایدر"
 
-#: ../src/CycloneSlider/Admin.php:251
+#: ../src/CycloneSlider/Admin.php:249
 #, fuzzy
 msgid "Slider Preview"
 msgstr "تنظیمات اسلاید"
 
-#: ../src/CycloneSlider/Admin.php:260
+#: ../src/CycloneSlider/Admin.php:258
 msgid "Get Slider Codes"
 msgstr "دریافت کد اسلایدر"
 
-#: ../src/CycloneSlider/Admin.php:269
+#: ../src/CycloneSlider/Admin.php:267
 #, fuzzy
 msgid "Basic Settings"
 msgstr "تنظیمات اسلایدشو"
 
-#: ../src/CycloneSlider/Admin.php:278
+#: ../src/CycloneSlider/Admin.php:276
 #, fuzzy
 msgid "Advanced Settings"
 msgstr "تنظیمات اسلایدشو"
 
-#: ../src/CycloneSlider/Admin.php:287
+#: ../src/CycloneSlider/Admin.php:285
 #, fuzzy
 msgid "Templates"
 msgstr "الگو"
 
-#: ../src/CycloneSlider/Admin.php:296 ../src/CycloneSlider/Admin.php:619
+#: ../src/CycloneSlider/Admin.php:294 ../src/CycloneSlider/Admin.php:616
+#: ../src/legacy/inc/class-cyclone-slider.php:520
 msgid "Slideshow ID"
 msgstr "کد اسلایدشو"
 
-#: ../src/CycloneSlider/Admin.php:316 ../src/CycloneSlider/Exporter.php:111
+#: ../src/CycloneSlider/Admin.php:314 ../src/CycloneSlider/Exporter.php:111
 #, fuzzy, php-format
 msgid "Slider \"%s\" not found."
 msgstr "[اسلایدشو  \"%s\" یافت نشد]"
 
-#: ../src/CycloneSlider/Admin.php:323
+#: ../src/CycloneSlider/Admin.php:321 ../src/legacy/inc/admin/box-js.php:4
+#: ../src/legacy/inc/class-cyclone-slider.php:298
 msgid "Slide"
 msgstr "اسلاید"
 
-#: ../src/CycloneSlider/Admin.php:328
+#: ../src/CycloneSlider/Admin.php:326
 msgid "[Hidden]"
 msgstr ""
 
@@ -190,27 +168,30 @@ msgid ""
 "Please consider creating a WordPress plugin Cyclone Slider template."
 msgstr ""
 
-#: ../src/CycloneSlider/Admin.php:524
+#: ../src/CycloneSlider/Admin.php:519
 msgid "Slide *"
 msgstr "اسلاید *"
 
-#: ../src/CycloneSlider/Admin.php:616
+#: ../src/CycloneSlider/Admin.php:613
+#: ../src/legacy/inc/class-cyclone-slider.php:519
 msgid "Slideshow Name"
 msgstr "نام اسلایدشو"
 
-#: ../src/CycloneSlider/Admin.php:617
+#: ../src/CycloneSlider/Admin.php:614
 msgid "Template"
 msgstr "الگو"
 
-#: ../src/CycloneSlider/Admin.php:618
+#: ../src/CycloneSlider/Admin.php:615
 msgid "No. of Slides"
 msgstr "شماره اسلاید"
 
-#: ../src/CycloneSlider/Admin.php:620
+#: ../src/CycloneSlider/Admin.php:617
+#: ../src/legacy/inc/class-cyclone-slider.php:521
 msgid "Shortcode"
 msgstr "کد کوتاه"
 
 #: ../src/CycloneSlider/AssetLoader.php:71
+#: ../src/legacy/inc/class-cyclone-slider.php:148
 msgid "Select an image"
 msgstr "انتخاب عکس"
 
@@ -219,6 +200,7 @@ msgid "Select Images - Use Ctrl + Click or Shift + Click"
 msgstr ""
 
 #: ../src/CycloneSlider/AssetLoader.php:73
+#: ../src/legacy/inc/class-cyclone-slider.php:149
 msgid "Add to Slide"
 msgstr "افزودن به اسلایدر"
 
@@ -231,7 +213,7 @@ msgstr "افزودن اسلایدشو جدید"
 msgid "Error. Make sure its a valid YouTube URL."
 msgstr ""
 
-#: ../src/CycloneSlider/Data.php:276
+#: ../src/CycloneSlider/Data.php:267
 #, php-format
 msgid "Invalid format for get_slider %s parameter."
 msgstr ""
@@ -241,6 +223,15 @@ msgstr ""
 #: ../src/CycloneSlider/ImportPage.php:69
 #, fuzzy
 msgid "Export"
+msgstr "وارد کردن"
+
+#: ../src/CycloneSlider/ExportPage.php:69
+#: ../src/CycloneSlider/ExportPageNextgen.php:67
+#: ../src/CycloneSlider/ExporterNextgen.php:65
+#: ../src/CycloneSlider/ImportPage.php:74
+#: ../src/CycloneSlider/NextgenIntegration.php:65
+#: ../src/legacy/inc/class-nextgen-integration.php:63 ../src/plugin.php:115
+msgid "Import"
 msgstr "وارد کردن"
 
 #: ../src/CycloneSlider/ExportPage.php:77
@@ -269,6 +260,11 @@ msgstr "اسلایدشو یافت نشد"
 #: ../src/CycloneSlider/ExportPageNextgen.php:177
 msgid "Please choose a file name."
 msgstr ""
+
+#: ../src/CycloneSlider/ExportPageNextgen.php:72 ../src/plugin.php:102
+#, fuzzy
+msgid "Export Nextgen"
+msgstr "وارد کردن"
 
 #: ../src/CycloneSlider/Exporter.php:52
 #, fuzzy
@@ -317,28 +313,32 @@ msgstr ""
 
 #: ../src/CycloneSlider/ExporterNextgen.php:39
 #: ../src/CycloneSlider/NextgenIntegration.php:39
+#: ../src/legacy/inc/class-nextgen-integration.php:33
 msgid "NextGEN Integration"
 msgstr "ادغام با NextGEN"
 
 #: ../src/CycloneSlider/ExporterNextgen.php:55
 #: ../src/CycloneSlider/NextgenIntegration.php:55
+#: ../src/legacy/inc/class-nextgen-integration.php:53
 msgid "Choose a NextGEN Gallery"
 msgstr "گالری NextGEN  را انتخاب کنید"
 
 #: ../src/CycloneSlider/ExporterNextgen.php:67
 #: ../src/CycloneSlider/NextgenIntegration.php:67
+#: ../src/legacy/inc/class-nextgen-integration.php:65
 msgid ""
 "Select a gallery to import images from. Images will be added as new slides."
 msgstr ""
 "گالری را برای وارد کردن تصاویر انتخاب کنید. تصاویر در یک اسلاید جدید افزوده "
 "خواهند شد."
 
-#: ../src/CycloneSlider/Frontend.php:81
+#: ../src/CycloneSlider/Frontend.php:101
 #, php-format
 msgid "[Slideshow \"%s\" not found]"
 msgstr "[اسلایدشو  \"%s\" یافت نشد]"
 
-#: ../src/CycloneSlider/Frontend.php:97
+#: ../src/CycloneSlider/Frontend.php:117
+#: ../src/legacy/inc/class-cyclone-slider.php:648
 #, php-format
 msgid "[Template \"%s\" not found]"
 msgstr "[الگوی \"%s\" یافت نشد]"
@@ -423,7 +423,7 @@ msgstr "ابزارک اسلایدر میکسا"
 msgid "Widget for displaying sliders."
 msgstr "ابزارک برای نمایش اسلایدرشوها"
 
-#: ../src/CycloneSlider/WidgetSlider.php:65 ../views/slide-edit-image.php:17
+#: ../src/CycloneSlider/WidgetSlider.php:65 ../views/slide-edit-image.php:21
 #, fuzzy
 msgid "Title:"
 msgstr "عنوان"
@@ -437,6 +437,201 @@ msgstr "انتخاب اسلایدشو"
 #, fuzzy
 msgid "No sliders found."
 msgstr "اسلایدشو یافت نشد"
+
+#: ../src/legacy/cyclone-slider.php:141 ../src/plugin.php:77
+#, fuzzy
+msgid "Cyclone Slider Settings"
+msgstr "ابزارک اسلایدر میکسا"
+
+#: ../src/legacy/cyclone-slider.php:142 ../src/plugin.php:78
+#, fuzzy
+msgid "Settings"
+msgstr "تنظیمات اسلایدشو"
+
+#: ../src/legacy/inc/admin/box-js.php:7 ../src/legacy/inc/admin/box.php:7
+#: ../views/slide-edit.php:24
+msgid "Toggle"
+msgstr "Toggle"
+
+#: ../src/legacy/inc/admin/box-js.php:8 ../src/legacy/inc/admin/box.php:8
+#: ../views/slide-edit.php:27
+msgid "Delete"
+msgstr "حذف"
+
+#: ../src/legacy/inc/admin/box-js.php:17 ../src/legacy/inc/admin/box.php:17
+#: ../views/slide-edit-image.php:10 ../views/slide-edit.php:95
+msgid "Get Image"
+msgstr "افزودن عکس"
+
+#: ../src/legacy/inc/admin/box-js.php:20 ../src/legacy/inc/admin/box.php:20
+msgid "Extra slide elements:"
+msgstr ""
+
+#: ../src/legacy/inc/admin/box-js.php:24 ../src/legacy/inc/admin/box.php:24
+#, fuzzy
+msgid "Slide Link"
+msgstr "اسلاید *"
+
+#: ../src/legacy/inc/admin/box-js.php:27 ../src/legacy/inc/admin/box.php:27
+#, fuzzy
+msgid "Link:"
+msgstr "لینک"
+
+#: ../src/legacy/inc/admin/box-js.php:29 ../src/legacy/inc/admin/box.php:29
+#: ../views/slide-edit-image.php:38 ../views/slide-edit.php:120
+msgid "Open Link in:"
+msgstr "نمایش لینک در"
+
+#: ../src/legacy/inc/admin/box-js.php:31 ../src/legacy/inc/admin/box.php:31
+#: ../views/slide-edit-image.php:40 ../views/slide-edit.php:122
+msgid "Same Window"
+msgstr "همان پنجره"
+
+#: ../src/legacy/inc/admin/box-js.php:32 ../src/legacy/inc/admin/box.php:32
+#: ../views/slide-edit-image.php:41 ../views/slide-edit.php:123
+msgid "New Tab or Window"
+msgstr "تب یا پنجره جدید"
+
+#: ../src/legacy/inc/admin/box-js.php:38 ../src/legacy/inc/admin/box.php:38
+#, fuzzy
+msgid "Title"
+msgstr "عنوان"
+
+#: ../src/legacy/inc/admin/box-js.php:46 ../src/legacy/inc/admin/box.php:46
+#, fuzzy
+msgid "Description"
+msgstr "توضیح"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:207
+#, php-format
+msgid "Slideshow updated. Shortcode is [cycloneslider id=\"%s\"]"
+msgstr ""
+
+#: ../src/legacy/inc/class-cyclone-slider.php:212
+#, php-format
+msgid "Slideshow published. Shortcode is [cycloneslider id=\"%s\"]"
+msgstr ""
+
+#: ../src/legacy/inc/class-cyclone-slider.php:233
+#, fuzzy
+msgid "Slider Settings"
+msgstr "تنظیمات اسلایدشو"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:241
+#, fuzzy
+msgid "Slider Templates"
+msgstr "الگوهای اسلایشو"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:306 ../views/slides.php:8
+msgid "Add Slide"
+msgstr "افزودن اسلاید"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:327
+#: ../views/slider-settings.php:3
+msgid "Transition Effects to Use:"
+msgstr "افکت حرکت"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:338
+#: ../views/slide-settings.php:33 ../views/slider-settings.php:25
+msgid "Next Slide Delay:"
+msgstr "تاخیر نمایش اسلاید"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:340
+#: ../views/slider-settings.php:27
+msgid "Milliseconds. 0 to disable auto advance."
+msgstr "میلی ثانیه. 0 برای غیرفعال سازی حالت خودکار"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:344
+#: ../views/slider-settings.php:31
+msgid "Transition Effects Speed:"
+msgstr "سرعت نمایش جلوه ها"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:346
+#: ../views/slide-settings.php:28 ../views/slide-settings.php:35
+#: ../views/slider-settings.php:33
+msgid "Milliseconds"
+msgstr "میلی ثانیه"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:350
+#: ../views/slider-settings.php:37
+msgid "Width:"
+msgstr "عرض"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:352
+#: ../src/legacy/inc/class-cyclone-slider.php:358
+#: ../views/slider-settings.php:39 ../views/slider-settings.php:45
+msgid "pixels."
+msgstr "پیکسل"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:356
+#: ../views/slider-settings.php:43
+msgid "Height:"
+msgstr "ارتفاع"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:362
+#: ../views/slider-settings.php:75
+msgid "Pause on Hover?"
+msgstr "توقف در زمان عبور ماوس"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:364
+#: ../src/legacy/inc/class-cyclone-slider.php:372
+#: ../src/legacy/inc/class-cyclone-slider.php:380
+#: ../views/slider-advanced-settings.php:6
+#: ../views/slider-advanced-settings.php:44 ../views/slider-settings.php:66
+#: ../views/slider-settings.php:77 ../views/slider-settings.php:85
+#: ../views/slider-settings.php:93 ../views/slider-settings.php:103
+msgid "Yes"
+msgstr "بله"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:365
+#: ../src/legacy/inc/class-cyclone-slider.php:373
+#: ../src/legacy/inc/class-cyclone-slider.php:381
+#: ../views/slider-advanced-settings.php:7
+#: ../views/slider-advanced-settings.php:45 ../views/slider-settings.php:65
+#: ../views/slider-settings.php:78 ../views/slider-settings.php:86
+#: ../views/slider-settings.php:94 ../views/slider-settings.php:102
+msgid "No"
+msgstr "خیر"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:370
+#: ../views/slider-settings.php:83
+msgid "Show Prev/Next Buttons?"
+msgstr "نمایش دکمه قبلی - بعدی"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:378
+#: ../views/slider-settings.php:91
+msgid "Show Navigation?"
+msgstr "نمایش ناوبری"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:407
+#, fuzzy
+msgid "Select Template to Use:"
+msgstr "الگوهای اسلایشو"
+
+#: ../src/legacy/inc/class-cyclone-slider.php:623
+#, fuzzy
+msgid "[Slideshow not found]"
+msgstr "[اسلایدشو  \"%s\" یافت نشد]"
+
+#: ../src/plugin.php:88
+#, fuzzy
+msgid "Cyclone Slider Export"
+msgstr "اسلایدر"
+
+#: ../src/plugin.php:89
+#, fuzzy
+msgid "Export/Import"
+msgstr "وارد کردن"
+
+#: ../src/plugin.php:101
+#, fuzzy
+msgid "Cyclone Slider Nextgen Export"
+msgstr "اسلایدر"
+
+#: ../src/plugin.php:114
+#, fuzzy
+msgid "Cyclone Slider Import"
+msgstr "اسلایدر"
 
 #: ../templates/dark/slider.php:40
 msgid "View Larger Image"
@@ -452,6 +647,11 @@ msgstr ""
 #, fuzzy
 msgid "Slide type not supported."
 msgstr "اسلایدشو به روز شد"
+
+#: ../templates/dark/slider.php:70 ../templates/standard/slider.php:76
+#, fuzzy
+msgid "Quote Image"
+msgstr "افزودن عکس"
 
 #: ../views/export-nextgen-step-1.php:8 ../views/export-nextgen-step-2.php:8
 #: ../views/export-nextgen-step-3.php:8
@@ -540,141 +740,134 @@ msgstr ""
 "در صورتی که مشکل در نمایش صحیح یا برای بهینه سازی اسلایدر، تنظیمات زیر را "
 "تغییر دهید."
 
-#: ../views/settings-page.php:16
+#: ../views/settings-page.php:17
 #, fuzzy
 msgid "Load scripts in:"
 msgstr "بارگزاری اسکریپت های زیر"
 
-#: ../views/settings-page.php:19
+#: ../views/settings-page.php:20
 msgid "Header"
 msgstr "سرصفحه"
 
-#: ../views/settings-page.php:20
+#: ../views/settings-page.php:21
 msgid "Footer"
 msgstr "پاصفحه"
 
-#: ../views/settings-page.php:25
+#: ../views/settings-page.php:26
 msgid "Load these scripts:"
 msgstr "بارگزاری اسکریپت های زیر"
 
-#: ../views/settings-page.php:30
+#: ../views/settings-page.php:31
 msgid "Cycle 2. This is the core script needed by the plugin."
 msgstr "Cycle 2. اسکریپت هسته اصلی افزونه"
 
-#: ../views/settings-page.php:35
+#: ../views/settings-page.php:36
 msgid "Cycle 2 - Carousel. Used by these templates: Galleria, Lea, Dos."
 msgstr "Cycle 2 - Carousel. استفاده شده در پوسته های افزونه"
 
-#: ../views/settings-page.php:40
+#: ../views/settings-page.php:41
 #, fuzzy
 msgid "Cycle 2 - Swipe. For touch swipe events."
 msgstr "Cycle 2 - Tile. برای جلوه نمایش حرکت کاشی ها در افزونه"
 
-#: ../views/settings-page.php:45
+#: ../views/settings-page.php:46
 msgid "Cycle 2 - Tile. Used for tile transition effects."
 msgstr "Cycle 2 - Tile. برای جلوه نمایش حرکت کاشی ها در افزونه"
 
-#: ../views/settings-page.php:50
+#: ../views/settings-page.php:51
 msgid "Cycle 2 - Video. Used by YouTube template."
 msgstr "Cycle 2 - Video. برای نمایش فایل های یوتیوب در الگوها"
 
-#: ../views/settings-page.php:55
+#: ../views/settings-page.php:56
 msgid "Magnific Popup - Enable lightbox option."
 msgstr ""
 
-#: ../views/settings-page.php:55 ../views/settings-page.php:60
+#: ../views/settings-page.php:56 ../views/settings-page.php:61
 #: ../views/slider-advanced-settings.php:2
 msgid "Available in pro version."
 msgstr ""
 
-#: ../views/settings-page.php:60
+#: ../views/settings-page.php:61
 msgid "Easing - Enable easing options."
 msgstr ""
 
-#: ../views/settings-page.php:65
+#: ../views/settings-page.php:66
 msgid "Scripts loading priority:"
 msgstr ""
 
-#: ../views/settings-page.php:68
+#: ../views/settings-page.php:69
 msgid "Make this value bigger to load scripts last."
 msgstr "برای سرعت"
 
-#: ../views/settings-page.php:72
+#: ../views/settings-page.php:73
 #, fuzzy
 msgid "Load these templates:"
 msgstr "بارگزاری اسکریپت های زیر"
 
-#: ../views/settings-page.php:85
+#: ../views/settings-page.php:86
+msgid "Legacy Mode:"
+msgstr ""
+
+#: ../views/settings-page.php:91
+msgid "Turn back time to the bygone era of Cyclone Slider 1."
+msgstr ""
+
+#: ../views/settings-page.php:97
 msgid "Save Options"
 msgstr ""
 
-#: ../views/settings-page.php:86
+#: ../views/settings-page.php:98
 msgid "Restore Defaults"
 msgstr ""
 
-#: ../views/slide-edit-image.php:5
+#: ../views/slide-edit-image.php:6 ../views/slide-edit.php:91
 msgid "Thumbnail"
 msgstr ""
 
-#: ../views/slide-edit-image.php:9
-msgid "Get Image"
-msgstr "افزودن عکس"
-
-#: ../views/slide-edit-image.php:10
+#: ../views/slide-edit-image.php:12 ../views/slide-edit.php:97
 #, fuzzy
 msgid "View Image"
 msgstr "افزودن عکس"
 
-#: ../views/slide-edit-image.php:14
+#: ../views/slide-edit-image.php:18
 msgid "Caption"
 msgstr ""
 
-#: ../views/slide-edit-image.php:21
+#: ../views/slide-edit-image.php:25
 #, fuzzy
 msgid "Description:"
 msgstr "توضیح"
 
-#: ../views/slide-edit-image.php:27 ../views/slide-edit.php:98
+#: ../views/slide-edit-image.php:31 ../views/slide-edit.php:113
 msgid "Link"
 msgstr "لینک"
 
-#: ../views/slide-edit-image.php:30 ../views/slide-edit.php:101
+#: ../views/slide-edit-image.php:34 ../views/slide-edit.php:116
 msgid "Link URL:"
 msgstr "آدرس لینک"
 
-#: ../views/slide-edit-image.php:34 ../views/slide-edit.php:105
-msgid "Open Link in:"
-msgstr "نمایش لینک در"
-
-#: ../views/slide-edit-image.php:36 ../views/slide-edit.php:107
-msgid "Same Window"
-msgstr "همان پنجره"
-
-#: ../views/slide-edit-image.php:37 ../views/slide-edit.php:108
-msgid "New Tab or Window"
-msgstr "تب یا پنجره جدید"
-
-#: ../views/slide-edit-image.php:43
+#: ../views/slide-edit-image.php:47
 msgid "Image Attributes"
 msgstr "ویژگی های عکس"
 
-#: ../views/slide-edit-image.php:46
+#: ../views/slide-edit-image.php:50
 msgid "Alternate Text:"
 msgstr "متن جایگزین تصاویر"
 
-#: ../views/slide-edit-image.php:50
+#: ../views/slide-edit-image.php:54
 msgid "Title Text:"
 msgstr "متن عنوان"
 
 #: ../views/slide-edit.php:8 ../views/slide-edit.php:11
+#: ../views/slide-edit.php:87 ../views/template-selection.php:19
 msgid "Image"
 msgstr "عکس"
 
-#: ../views/slide-edit.php:12
+#: ../views/slide-edit.php:12 ../views/template-selection.php:24
 msgid "YouTube"
 msgstr ""
 
-#: ../views/slide-edit.php:13
+#: ../views/slide-edit.php:13 ../views/template-selection.php:29
 #, fuzzy
 msgid "Vimeo"
 msgstr "فیلم"
@@ -683,17 +876,9 @@ msgstr "فیلم"
 msgid "Custom"
 msgstr "سایر"
 
-#: ../views/slide-edit.php:15
+#: ../views/slide-edit.php:15 ../views/template-selection.php:39
 msgid "Testimonial"
 msgstr ""
-
-#: ../views/slide-edit.php:24
-msgid "Toggle"
-msgstr "Toggle"
-
-#: ../views/slide-edit.php:27
-msgid "Delete"
-msgstr "حذف"
 
 #: ../views/slide-edit.php:56
 msgid "YouTube URL:"
@@ -719,7 +904,7 @@ msgstr ""
 "آدرس ویدیو یوتیوب یا Vimeo را در اینجا گذاشته و دکمه افزودن ویدیو را کلیک "
 "کنید"
 
-#: ../views/slide-edit.php:75
+#: ../views/slide-edit.php:75 ../views/template-selection.php:34
 msgid "Custom HTML"
 msgstr "HTML دلخواه"
 
@@ -727,11 +912,11 @@ msgstr "HTML دلخواه"
 msgid "Quote"
 msgstr ""
 
-#: ../views/slide-edit.php:89
+#: ../views/slide-edit.php:104
 msgid "Author"
 msgstr ""
 
-#: ../views/slide-edit.php:92
+#: ../views/slide-edit.php:107
 msgid "Name:"
 msgstr ""
 
@@ -756,15 +941,6 @@ msgstr ""
 #, fuzzy
 msgid "Effects Speed:"
 msgstr "سرعت نمایش جلوه ها"
-
-#: ../views/slide-settings.php:28 ../views/slide-settings.php:35
-#: ../views/slider-settings.php:33
-msgid "Milliseconds"
-msgstr "میلی ثانیه"
-
-#: ../views/slide-settings.php:33 ../views/slider-settings.php:25
-msgid "Next Slide Delay:"
-msgstr "تاخیر نمایش اسلاید"
 
 #: ../views/slide-settings.php:43 ../views/slider-settings.php:12
 msgid "Tile Count:"
@@ -797,20 +973,6 @@ msgstr "افقی"
 #: ../views/slider-advanced-settings.php:4
 msgid "Allow Wrap?"
 msgstr ""
-
-#: ../views/slider-advanced-settings.php:6
-#: ../views/slider-advanced-settings.php:44 ../views/slider-settings.php:66
-#: ../views/slider-settings.php:77 ../views/slider-settings.php:85
-#: ../views/slider-settings.php:93 ../views/slider-settings.php:103
-msgid "Yes"
-msgstr "بله"
-
-#: ../views/slider-advanced-settings.php:7
-#: ../views/slider-advanced-settings.php:45 ../views/slider-settings.php:65
-#: ../views/slider-settings.php:78 ../views/slider-settings.php:86
-#: ../views/slider-settings.php:94 ../views/slider-settings.php:102
-msgid "No"
-msgstr "خیر"
 
 #: ../views/slider-advanced-settings.php:10
 msgid ""
@@ -981,30 +1143,6 @@ msgstr "آی دی اسلایدشو را از اینجا تغییر دهید"
 msgid "Your preview will appear here."
 msgstr ""
 
-#: ../views/slider-settings.php:3
-msgid "Transition Effects to Use:"
-msgstr "افکت حرکت"
-
-#: ../views/slider-settings.php:27
-msgid "Milliseconds. 0 to disable auto advance."
-msgstr "میلی ثانیه. 0 برای غیرفعال سازی حالت خودکار"
-
-#: ../views/slider-settings.php:31
-msgid "Transition Effects Speed:"
-msgstr "سرعت نمایش جلوه ها"
-
-#: ../views/slider-settings.php:37
-msgid "Width:"
-msgstr "عرض"
-
-#: ../views/slider-settings.php:39 ../views/slider-settings.php:45
-msgid "pixels."
-msgstr "پیکسل"
-
-#: ../views/slider-settings.php:43
-msgid "Height:"
-msgstr "ارتفاع"
-
 #: ../views/slider-settings.php:49
 msgid "Width Management:"
 msgstr ""
@@ -1054,18 +1192,6 @@ msgstr ""
 "بله: تغییر اندازه تصاویر به نسبت ابعاد اسلایدشو </br> خیر: استفاده از فایل "
 "اصلی آپلود شده"
 
-#: ../views/slider-settings.php:75
-msgid "Pause on Hover?"
-msgstr "توقف در زمان عبور ماوس"
-
-#: ../views/slider-settings.php:83
-msgid "Show Prev/Next Buttons?"
-msgstr "نمایش دکمه قبلی - بعدی"
-
-#: ../views/slider-settings.php:91
-msgid "Show Navigation?"
-msgstr "نمایش ناوبری"
-
 #: ../views/slider-settings.php:96
 msgid "The thumbnails or dots depending on template."
 msgstr "تصویر بندانگشتی یا نقطه یا نمایه، بسته به تنظیمات طرح انتخابی"
@@ -1078,40 +1204,35 @@ msgstr "نمایش نامرتب اسلایدها"
 msgid "Randomize order of slides on every page visit."
 msgstr "نمایش تصادفی ترتیب اسلایدها در هر بار نمایش سایت"
 
-#: ../views/slides.php:8
-msgid "Add Slide"
-msgstr "افزودن اسلاید"
-
 #: ../views/slides.php:10
 msgid "Sort"
 msgstr ""
 
-#: ../views/template-selection.php:4
+#: ../views/template-selection.php:5
 msgid "Name"
 msgstr ""
 
-#: ../views/template-selection.php:5
+#: ../views/template-selection.php:6
 msgid "Supported Slides"
 msgstr ""
 
-#: ../views/template-selection.php:6
+#: ../views/template-selection.php:7
 msgid "Location"
 msgstr ""
 
-#: ../views/template-selection.php:7
-#, fuzzy
-msgid "Selected"
-msgstr "حذف"
-
-#: ../views/template-selection.php:43
+#: ../views/template-selection.php:58
 #, fuzzy
 msgid "Learn More About Templates"
 msgstr "دانلود مدل های بیشتر..."
 
-#: ../views/template-selection.php:44
+#: ../views/template-selection.php:59
 #, fuzzy
-msgid "Get More Templates"
+msgid "More Templates"
 msgstr "دانلود مدل های بیشتر..."
+
+#, fuzzy
+#~ msgid "Selected"
+#~ msgstr "حذف"
 
 #~ msgid "Slide Transition Effects"
 #~ msgstr "افکت حرکت اسلاید"
@@ -1167,12 +1288,6 @@ msgstr "دانلود مدل های بیشتر..."
 #~ msgstr ""
 #~ "<strong>نکته:</strong> افزودن &wmode=transparent برای چسباندن ویژگی  src "
 #~ "برای ساختن المنت HTML در بالای آن"
-
-#~ msgid "Slideshow Settings"
-#~ msgstr "تنظیمات اسلایدشو"
-
-#~ msgid "Slideshow Templates"
-#~ msgstr "الگوهای اسلایشو"
 
 #~ msgid "Drag"
 #~ msgstr "کشیدن"
