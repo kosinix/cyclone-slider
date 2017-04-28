@@ -118,6 +118,9 @@ See: [http://docs.codefleet.net/cyclone-slider/creating-your-own-template/](http
 
 == Changelog ==
 
+= 3.1.1 - 2017-04-29 =
+* Fix slide type image edit area not showing when adding slide for the first time.
+
 = 3.1.0 - 2017-04-28 =
 * Add image to testimonial slide type. Make it work on Dark and Standard template.
 * Fix dark template.

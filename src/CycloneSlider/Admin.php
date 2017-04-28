@@ -530,7 +530,7 @@ class CycloneSlider_Admin {
             $vars['full_image_url'] = '';
             $vars['testimonial_img_url'] = '';
             $vars['full_testimonial_img_url'] = '';
-            $vars['slide']['type'] = 'image';
+            $vars['type'] = 'image';
 
             $empty_slide = $this->view->get_render('slide-edit.php', $vars);
             

@@ -411,7 +411,6 @@ jQuery(document).ready(function($){
 
             $table.find('tr').removeClass('active');
             $tr.addClass('active');
-            console.log($radio.attr('id'));
         });
         $(document).on('click', '#cs-boxy', function(e){
             e.preventDefault();
