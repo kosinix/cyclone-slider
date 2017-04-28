@@ -66,6 +66,9 @@
                 </div>
             <?php elseif ( 'testimonial' == $slide['type'] ) : ?>
                 <div class="cycloneslider-slide cycloneslider-slide-testimonial" <?php echo $slide['slide_data_attributes']; ?>>
+                    <?php if ( '' != $slide['testimonial_img_url'] ) : ?>
+                        <img src="<?php echo esc_attr($slide['testimonial_img_url']); ?>" alt="<?php _e('Quote Image', 'cycloneslider'); ?>">
+                    <?php endif; ?>
                     <blockquote>
                         <p><?php echo $slide['testimonial']; ?></p>
                     </blockquote>
