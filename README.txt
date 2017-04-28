@@ -118,6 +118,14 @@ See: [http://docs.codefleet.net/cyclone-slider/creating-your-own-template/](http
 
 == Changelog ==
 
+= 3.1.0 - 2017-04-28 =
+* Add image to testimonial slide type. Make it work on Dark and Standard template.
+* Fix dark template.
+* Fix standard template.
+* Fix vimeo slide type. 
+* Use the new vimeo player js library.
+* Add templates Twitter and Yelp reviews to [Pro](https://www.codefleet.net/cyclone-slider/templates/).
+
 = 3.0.0 - 2017-04-12 =
 * Codebase merge with Cyclone Slider 2. See [detailed post](https://www.codefleet.net/cyclone-slider-reborn/).
 * Add "Legacy Mode" to restore full Cyclone Slider 1 functionality if needed.
