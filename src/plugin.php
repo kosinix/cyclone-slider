@@ -138,6 +138,21 @@ function cs3_init() {
     $cyclone_slider_plugin_instance = $plugin;
 }
 
+// PHP embed code function
+/**
+ * Cyclone Slider
+ *
+ * Displays the slider on template files.
+ *
+ * @param string $slider_slug The slug of the slider.
+ */
+function cyclone_slider( $slider_slug ){
+	global $cyclone_slider_plugin_instance;
+	if(isset($cyclone_slider_plugin_instance)){
+		echo $cyclone_slider_plugin_instance['frontend']->cycloneslider_shortcode( array('id'=>$slider_slug) );
+	}
+}
+
 // Service Definitions
 function cs3_service_plugin_headers( $plugin ){
 	static $object;
