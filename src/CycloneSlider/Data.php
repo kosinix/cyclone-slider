@@ -244,6 +244,27 @@ class CycloneSlider_Data {
     }
     
     /**
+	 * @param $slug Post slug
+	 *
+	 * @return array|NULL
+	 */
+    public function get_slider_by_slug( $slug ){
+        global $wp_version;
+
+		$args = array(
+			'numberposts' => 1 // 1 only
+		);
+
+        $args['name'] = $slug;
+        if ( version_compare( $wp_version, '4.4', '>=' ) ) { // post_name__in avail only in 4.4
+            $args['post_name__in'] = array( $slug ); // Workaround: Using "post_name__in" not "name" as WP returns a post instead of nothing when name is ''.
+        }
+		
+		$sliders = $this->get_sliders( $args );
+		return array_pop($sliders); // Return the lone slideshow or NULL if empty
+    }
+
+    /**
 	 * @param $id_or_slug
 	 *
 	 * @return array|NULL

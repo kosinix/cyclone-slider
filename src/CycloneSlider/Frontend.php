@@ -94,7 +94,7 @@ class CycloneSlider_Frontend {
         );
 
         $slider_slug = $shortcode_settings['id']; // Slideshow slug passed from shortcode
-        $slider      = $this->data->get_slider( $slider_slug ); // Get slider by slug
+        $slider      = $this->data->get_slider_by_slug( $slider_slug ); // Get slider by slug
 
         // Abort if slider not found!
         if ( $slider === NULL ) {
