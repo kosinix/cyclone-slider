@@ -118,6 +118,9 @@ See: [http://docs.codefleet.net/cyclone-slider/creating-your-own-template/](http
 
 == Changelog ==
 
+= 3.1.2 - 2017-05-04 =
+* Fix "Slideshow not found" error when using numeric slideshow slugs. Eg. "011".
+
 = 3.1.1 - 2017-04-29 =
 * Fix slide type image edit area not showing when adding slide for the first time.
 
