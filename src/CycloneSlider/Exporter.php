@@ -97,7 +97,7 @@ class CycloneSlider_Exporter {
 		
 		foreach( $sliders_slugs_array as $i=>$slider_slug){
 
-			$slider = $this->data->get_slider( $slider_slug );
+			$slider = $this->data->get_slider_by_slug( $slider_slug );
 			
 			if($slider){
 				$sliders_export_data[$i] = array(
