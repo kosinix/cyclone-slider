@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cyclone Slider\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 08:21+0800\n"
-"PO-Revision-Date: 2017-04-28 08:21+0800\n"
+"POT-Creation-Date: 2017-06-12 06:40+0800\n"
+"PO-Revision-Date: 2017-06-12 06:40+0800\n"
 "Last-Translator: \n"
 "Language-Team: kosinix <kosinix@codefleet.net>\n"
 "Language: ja_JP\n"
@@ -66,7 +66,7 @@ msgstr "スライドショーが見つかりません"
 #: ../src/CycloneSlider/Admin.php:149
 #: ../src/legacy/inc/class-cyclone-slider.php:191
 msgid "No slideshows found in Trash"
-msgstr ""
+msgstr "ゴミ箱にスライドショーが見つかりません"
 
 #: ../src/CycloneSlider/Admin.php:195 ../src/CycloneSlider/Admin.php:198
 #: ../src/CycloneSlider/Admin.php:199 ../src/CycloneSlider/Admin.php:202
@@ -105,11 +105,11 @@ msgstr "スライド"
 
 #: ../src/CycloneSlider/Admin.php:249
 msgid "Slider Preview"
-msgstr ""
+msgstr "スライダープレビュー"
 
 #: ../src/CycloneSlider/Admin.php:258
 msgid "Get Slider Codes"
-msgstr ""
+msgstr "スライダコードを取得する"
 
 #: ../src/CycloneSlider/Admin.php:267
 msgid "Basic Settings"
@@ -153,6 +153,10 @@ msgid ""
 "will be gone when the plugin is updated. <br />Location: <strong>%s</strong>"
 msgstr ""
 
+#: ../src/CycloneSlider/Admin.php:471
+msgid "Active Theme"
+msgstr "アクティブなテーマ"
+
 #: ../src/CycloneSlider/Admin.php:472 ../src/CycloneSlider/Admin.php:477
 #: ../src/CycloneSlider/Admin.php:481
 #, php-format
@@ -164,6 +168,14 @@ msgid ""
 "Your template is in danger of being overwritten when you upgrade your theme. "
 "Please consider creating a WordPress plugin Cyclone Slider template."
 msgstr ""
+
+#: ../src/CycloneSlider/Admin.php:476
+msgid "WP Content"
+msgstr "WPコンテンツ"
+
+#: ../src/CycloneSlider/Admin.php:480
+msgid "Plugin"
+msgstr "プラグイン"
 
 #: ../src/CycloneSlider/Admin.php:519
 msgid "Slide *"
@@ -180,12 +192,12 @@ msgstr ""
 
 #: ../src/CycloneSlider/Admin.php:615
 msgid "No. of Slides"
-msgstr ""
+msgstr "スライド数"
 
 #: ../src/CycloneSlider/Admin.php:617
 #: ../src/legacy/inc/class-cyclone-slider.php:521
 msgid "Shortcode"
-msgstr ""
+msgstr "ショートコード"
 
 #: ../src/CycloneSlider/AssetLoader.php:71
 #: ../src/legacy/inc/class-cyclone-slider.php:148
@@ -203,29 +215,92 @@ msgstr ""
 
 #: ../src/CycloneSlider/AssetLoader.php:74 ../views/slides.php:9
 msgid "Add Images as Slides"
-msgstr ""
+msgstr "画像をスライドとして追加"
 
 #: ../src/CycloneSlider/AssetLoader.php:75
 msgid "Error. Make sure its a valid YouTube URL."
 msgstr ""
 
-#: ../src/CycloneSlider/Data.php:267
+#: ../src/CycloneSlider/Data.php:288
 #, php-format
 msgid "Invalid format for get_slider %s parameter."
 msgstr ""
+
+#: ../src/CycloneSlider/Data.php:814
+msgid "Fit"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:815
+msgid "Fill"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:816 ../src/CycloneSlider/Data.php:824
+msgid "Crop"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:817 ../src/CycloneSlider/Data.php:825
+msgid "Exact"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:818
+msgid "Exact Width"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:819
+#, fuzzy
+msgid "Exact Height"
+msgstr "高さ："
+
+#: ../src/CycloneSlider/Data.php:823
+msgid "Auto"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:826
+msgid "Landscape"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:827
+msgid "Portrait"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:839
+msgid "Fade"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:840
+msgid "Fade Out"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:841
+msgid "None"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:842
+#, fuzzy
+msgid "Scroll Horizontally"
+msgstr "水平"
+
+#: ../src/CycloneSlider/Data.php:843
+msgid "Tile Blind"
+msgstr ""
+
+#: ../src/CycloneSlider/Data.php:844
+#, fuzzy
+msgid "Tile Slide"
+msgstr "サイクロンスライダー"
 
 #: ../src/CycloneSlider/ExportPage.php:64
 #: ../src/CycloneSlider/ExportPageNextgen.php:62
 #: ../src/CycloneSlider/ImportPage.php:69
 msgid "Export"
-msgstr ""
+msgstr "輸出する"
 
 #: ../src/CycloneSlider/ExportPage.php:69
 #: ../src/CycloneSlider/ExportPageNextgen.php:67
 #: ../src/CycloneSlider/ExporterNextgen.php:65
 #: ../src/CycloneSlider/ImportPage.php:74
 #: ../src/CycloneSlider/NextgenIntegration.php:65
-#: ../src/legacy/inc/class-nextgen-integration.php:63 ../src/plugin.php:115
+#: ../src/legacy/inc/class-nextgen-integration.php:63 ../src/plugin.php:121
 msgid "Import"
 msgstr "インポート"
 
@@ -255,7 +330,7 @@ msgstr ""
 msgid "Please choose a file name."
 msgstr ""
 
-#: ../src/CycloneSlider/ExportPageNextgen.php:72 ../src/plugin.php:102
+#: ../src/CycloneSlider/ExportPageNextgen.php:72 ../src/plugin.php:108
 msgid "Export Nextgen"
 msgstr "Nextgenのエクスポート"
 
@@ -412,7 +487,7 @@ msgstr ""
 
 #: ../src/CycloneSlider/WidgetSlider.php:65 ../views/slide-edit-image.php:21
 msgid "Title:"
-msgstr ""
+msgstr "タイトル："
 
 #: ../src/CycloneSlider/WidgetSlider.php:79
 msgid "Select a Slider:"
@@ -422,11 +497,11 @@ msgstr ""
 msgid "No sliders found."
 msgstr ""
 
-#: ../src/legacy/cyclone-slider.php:141 ../src/plugin.php:77
+#: ../src/legacy/cyclone-slider.php:141 ../src/plugin.php:83
 msgid "Cyclone Slider Settings"
 msgstr "サイクロンスライダの設定"
 
-#: ../src/legacy/cyclone-slider.php:142 ../src/plugin.php:78
+#: ../src/legacy/cyclone-slider.php:142 ../src/plugin.php:84
 msgid "Settings"
 msgstr "設定"
 
@@ -443,7 +518,7 @@ msgstr ""
 #: ../src/legacy/inc/admin/box-js.php:17 ../src/legacy/inc/admin/box.php:17
 #: ../views/slide-edit-image.php:10 ../views/slide-edit.php:95
 msgid "Get Image"
-msgstr ""
+msgstr "画像を取得する"
 
 #: ../src/legacy/inc/admin/box-js.php:20 ../src/legacy/inc/admin/box.php:20
 msgid "Extra slide elements:"
@@ -461,17 +536,17 @@ msgstr ""
 #: ../src/legacy/inc/admin/box-js.php:29 ../src/legacy/inc/admin/box.php:29
 #: ../views/slide-edit-image.php:38 ../views/slide-edit.php:120
 msgid "Open Link in:"
-msgstr ""
+msgstr "リンクを開く："
 
 #: ../src/legacy/inc/admin/box-js.php:31 ../src/legacy/inc/admin/box.php:31
 #: ../views/slide-edit-image.php:40 ../views/slide-edit.php:122
 msgid "Same Window"
-msgstr ""
+msgstr "同じウィンドウ"
 
 #: ../src/legacy/inc/admin/box-js.php:32 ../src/legacy/inc/admin/box.php:32
 #: ../views/slide-edit-image.php:41 ../views/slide-edit.php:123
 msgid "New Tab or Window"
-msgstr ""
+msgstr "新しいタブまたはウィンドウ"
 
 #: ../src/legacy/inc/admin/box-js.php:38 ../src/legacy/inc/admin/box.php:38
 msgid "Title"
@@ -504,54 +579,54 @@ msgstr "テンプレート"
 
 #: ../src/legacy/inc/class-cyclone-slider.php:306 ../views/slides.php:8
 msgid "Add Slide"
-msgstr ""
+msgstr "スライドを追加"
 
 #: ../src/legacy/inc/class-cyclone-slider.php:327
 #: ../views/slider-settings.php:3
 msgid "Transition Effects to Use:"
-msgstr ""
+msgstr "使用する移行効果："
 
 #: ../src/legacy/inc/class-cyclone-slider.php:338
 #: ../views/slide-settings.php:33 ../views/slider-settings.php:25
 msgid "Next Slide Delay:"
-msgstr ""
+msgstr "次のスライド遅延："
 
 #: ../src/legacy/inc/class-cyclone-slider.php:340
 #: ../views/slider-settings.php:27
 msgid "Milliseconds. 0 to disable auto advance."
-msgstr ""
+msgstr "ミリ秒。 オート・アドバンスを無効にするには0を押します。"
 
 #: ../src/legacy/inc/class-cyclone-slider.php:344
 #: ../views/slider-settings.php:31
 msgid "Transition Effects Speed:"
-msgstr ""
+msgstr "トランジションエフェクトスピード："
 
 #: ../src/legacy/inc/class-cyclone-slider.php:346
 #: ../views/slide-settings.php:28 ../views/slide-settings.php:35
 #: ../views/slider-settings.php:33
 msgid "Milliseconds"
-msgstr ""
+msgstr "ミリ秒"
 
 #: ../src/legacy/inc/class-cyclone-slider.php:350
 #: ../views/slider-settings.php:37
 msgid "Width:"
-msgstr ""
+msgstr "幅："
 
 #: ../src/legacy/inc/class-cyclone-slider.php:352
 #: ../src/legacy/inc/class-cyclone-slider.php:358
 #: ../views/slider-settings.php:39 ../views/slider-settings.php:45
 msgid "pixels."
-msgstr ""
+msgstr "ピクセル。"
 
 #: ../src/legacy/inc/class-cyclone-slider.php:356
 #: ../views/slider-settings.php:43
 msgid "Height:"
-msgstr ""
+msgstr "高さ："
 
 #: ../src/legacy/inc/class-cyclone-slider.php:362
 #: ../views/slider-settings.php:75
 msgid "Pause on Hover?"
-msgstr ""
+msgstr "ホバーで一時停止する？"
 
 #: ../src/legacy/inc/class-cyclone-slider.php:364
 #: ../src/legacy/inc/class-cyclone-slider.php:372
@@ -592,19 +667,19 @@ msgstr ""
 msgid "[Slideshow not found]"
 msgstr "スライダ\"%s\"が見つかりません。"
 
-#: ../src/plugin.php:88
+#: ../src/plugin.php:94
 msgid "Cyclone Slider Export"
 msgstr "サイクロンスライダー輸出"
 
-#: ../src/plugin.php:89
+#: ../src/plugin.php:95
 msgid "Export/Import"
 msgstr "輸出入"
 
-#: ../src/plugin.php:101
+#: ../src/plugin.php:107
 msgid "Cyclone Slider Nextgen Export"
 msgstr "サイクロンスライダーNextgenエクスポート"
 
-#: ../src/plugin.php:114
+#: ../src/plugin.php:120
 msgid "Cyclone Slider Import"
 msgstr "サイクロンスライダのインポート"
 
@@ -786,11 +861,11 @@ msgstr ""
 
 #: ../views/slide-edit-image.php:12 ../views/slide-edit.php:97
 msgid "View Image"
-msgstr ""
+msgstr "画像を見る"
 
 #: ../views/slide-edit-image.php:18
 msgid "Caption"
-msgstr ""
+msgstr "キャプション"
 
 #: ../views/slide-edit-image.php:25
 msgid "Description:"
@@ -798,23 +873,23 @@ msgstr "説明："
 
 #: ../views/slide-edit-image.php:31 ../views/slide-edit.php:113
 msgid "Link"
-msgstr ""
+msgstr "リンク"
 
 #: ../views/slide-edit-image.php:34 ../views/slide-edit.php:116
 msgid "Link URL:"
-msgstr ""
+msgstr "リンクURL："
 
 #: ../views/slide-edit-image.php:47
 msgid "Image Attributes"
-msgstr ""
+msgstr "イメージの属性"
 
 #: ../views/slide-edit-image.php:50
 msgid "Alternate Text:"
-msgstr ""
+msgstr "代替テキスト："
 
 #: ../views/slide-edit-image.php:54
 msgid "Title Text:"
-msgstr ""
+msgstr "タイトルテキスト："
 
 #: ../views/slide-edit.php:8 ../views/slide-edit.php:11
 #: ../views/slide-edit.php:87 ../views/template-selection.php:19
@@ -843,83 +918,83 @@ msgstr "YouTubeのURL："
 
 #: ../views/slide-edit.php:58
 msgid "Copy and paste a valid YouTube URL here."
-msgstr ""
+msgstr "有効なYouTube URLをここにコピーして貼り付けてください。"
 
 #: ../views/slide-edit.php:63
 msgid "Do not show suggested videos when the video finishes."
-msgstr ""
+msgstr "動画が終了したらおすすめの動画を表示しないでください。"
 
 #: ../views/slide-edit.php:68
 msgid "Vimeo URL:"
-msgstr ""
+msgstr "Vimeo URL："
 
 #: ../views/slide-edit.php:70
 msgid "Copy and paste a valid Vimeo URL here."
-msgstr ""
+msgstr "有効なVimeo URLをここにコピーして貼り付けます。"
 
 #: ../views/slide-edit.php:75 ../views/template-selection.php:34
 msgid "Custom HTML"
-msgstr ""
+msgstr "カスタムHTML"
 
 #: ../views/slide-edit.php:83
 msgid "Quote"
-msgstr ""
+msgstr "引用"
 
 #: ../views/slide-edit.php:104
 msgid "Author"
-msgstr ""
+msgstr "著者"
 
 #: ../views/slide-edit.php:107
 msgid "Name:"
-msgstr ""
+msgstr "名："
 
 #: ../views/slide-settings.php:3
 msgid "Slide Properties"
-msgstr ""
+msgstr "スライドプロパティ"
 
 #: ../views/slide-settings.php:6
 msgid "Hidden:"
-msgstr ""
+msgstr "隠された："
 
 #: ../views/slide-settings.php:15
 msgid "Transition Effects:"
-msgstr ""
+msgstr "移行効果："
 
 #: ../views/slide-settings.php:17
 msgid "Default"
-msgstr ""
+msgstr "デフォルト"
 
 #: ../views/slide-settings.php:26
 msgid "Effects Speed:"
-msgstr ""
+msgstr "エフェクトスピード："
 
 #: ../views/slide-settings.php:43 ../views/slider-settings.php:12
 msgid "Tile Count:"
-msgstr ""
+msgstr "タイル数："
 
 #: ../views/slide-settings.php:45 ../views/slider-settings.php:14
 msgid "The number of tiles to use in the transition."
-msgstr ""
+msgstr "トランジションで使用するタイルの数。"
 
 #: ../views/slide-settings.php:49
 msgid "Tile Delay:"
-msgstr ""
+msgstr "タイル遅延："
 
 #: ../views/slide-settings.php:51
 msgid "Milliseconds to delay each individual tile transition."
-msgstr ""
+msgstr "ミリ秒ごとに個々のタイルの遷移を遅延させます。"
 
 #: ../views/slide-settings.php:55 ../views/slider-settings.php:17
 msgid "Tile Position:"
-msgstr ""
+msgstr "タイルの位置："
 
 #: ../views/slide-settings.php:57 ../views/slider-settings.php:19
 msgid "Vertical"
-msgstr ""
+msgstr "垂直"
 
 #: ../views/slide-settings.php:58 ../views/slider-settings.php:20
 msgid "Horizontal"
-msgstr ""
+msgstr "水平"
 
 #: ../views/slider-advanced-settings.php:4
 msgid "Allow Wrap?"
@@ -1062,34 +1137,38 @@ msgstr ""
 
 #: ../views/slider-codes.php:4
 msgid "Your Shortcode:"
-msgstr ""
+msgstr "あなたのショートコード："
 
 #: ../views/slider-codes.php:6
 msgid ""
 "Copy and paste this shortcode into your Post, Page or Custom Post editor."
 msgstr ""
+"このショートコードをコピーして、投稿、ページ、またはカスタム投稿エディタに貼"
+"り付けます。"
 
 #: ../views/slider-codes.php:10
 msgid "Your PHP Code:"
-msgstr ""
+msgstr "あなたのPHPコード："
 
 #: ../views/slider-codes.php:12
 msgid ""
 "Copy and paste this code when you need to display the slider in template "
 "files (header.php, front-page.php, etc.)."
 msgstr ""
+"テンプレートファイル（header.php、front-page.phpなど）にスライダを表示する必"
+"要がある場合は、このコードをコピーして貼り付けます。"
 
 #: ../views/slider-id.php:5
 msgid "Change the Slideshow ID here."
-msgstr ""
+msgstr "ここでスライドショーIDを変更してください。"
 
 #: ../views/slider-preview.php:9
 msgid "Your preview will appear here."
-msgstr ""
+msgstr "プレビューがここに表示されます。"
 
 #: ../views/slider-settings.php:49
 msgid "Width Management:"
-msgstr ""
+msgstr "幅管理："
 
 #: ../views/slider-settings.php:51
 msgid "Responsive"
@@ -1147,25 +1226,24 @@ msgstr ""
 
 #: ../views/slides.php:10
 msgid "Sort"
-msgstr ""
+msgstr "ソート"
 
 #: ../views/template-selection.php:5
 msgid "Name"
-msgstr ""
+msgstr "名"
 
 #: ../views/template-selection.php:6
 msgid "Supported Slides"
-msgstr ""
+msgstr "サポートされているスライド"
 
 #: ../views/template-selection.php:7
 msgid "Location"
-msgstr ""
+msgstr "ロケーション"
 
 #: ../views/template-selection.php:58
 msgid "Learn More About Templates"
-msgstr ""
+msgstr "テンプレートについての詳細"
 
 #: ../views/template-selection.php:59
-#, fuzzy
 msgid "More Templates"
-msgstr "テンプレート"
+msgstr "その他のテンプレート"
