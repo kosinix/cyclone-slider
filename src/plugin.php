@@ -131,8 +131,8 @@ function cs3_init() {
 
     require_once($plugin['path'].'src/functions.php'); // Function not autoloaded from the old days. Deprecated
 
-    load_plugin_textdomain( $plugin['textdomain'], false, basename(dirname(__FILE__)).'/languages/' ); // Load language files
-
+    load_plugin_textdomain( $plugin['textdomain'], false, basename($plugin['path']).'/languages/' ); // Load language files
+    
     $plugin->run();
 
     $cyclone_slider_plugin_instance = $plugin;
@@ -172,7 +172,7 @@ function cs3_service_plugin_headers( $plugin ){
 		'domain_path' => 'Domain Path',
 		'text_domain' => 'Text Domain'
 	);
-	$object = get_file_data( __FILE__, $default_headers, 'plugin' ); // WP Func
+	$object = get_file_data( $plugin['path'].DIRECTORY_SEPARATOR.'cyclone-slider.php', $default_headers, 'plugin' ); // WP Func
 
 	return $object;
 }
@@ -195,7 +195,7 @@ function cs3_service_plugin_text_domain( $plugin ) {
         return $object;
     }
 
-    $object = $plugin['plugin_headers']['text_domain'];
+    $object = trim($plugin['plugin_headers']['text_domain']);
     return $object;
 }
 
