@@ -118,6 +118,10 @@ See: [http://docs.codefleet.net/cyclone-slider/creating-your-own-template/](http
 
 == Changelog ==
 
+= 3.2.0 - 2017-07-04 =
+* Fix issue with font awesome not loading when used by other plugins.
+* Used SVG for icons.
+
 = 3.1.3 - 2017-06-12 =
 * Fix language files not loaded.
 * Updated Japanese language files.
